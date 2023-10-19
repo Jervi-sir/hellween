@@ -1,4 +1,11 @@
 import ImagePreview from "./preview";
+import type { Metadata } from 'next'
+import "styled-jsx/css";
+
+export const metadata: Metadata = {
+  title: 'Product with Hell Ween',
+  description: 'Better shop for Halloween 2023, and now You are with Our best products',
+}
 
 function Product({ params }) {
   const { id } = params;

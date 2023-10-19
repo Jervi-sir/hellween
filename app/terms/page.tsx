@@ -1,4 +1,10 @@
 import Link from "next/link";
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Terms & Conditions of Hell Ween',
+  description: 'Better shop for Halloween 2023',
+}
 
 function Terms() {
   return (

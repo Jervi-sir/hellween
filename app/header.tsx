@@ -95,8 +95,8 @@ function Header() {
                         </li>
 
                         <li className="dropdown menulist">
-                          <a href="index1647.html?route=product/category&amp;path=25" className="dropdown-toggle"
-                            aria-expanded="false">More</a>
+                          <a className="dropdown-toggle"
+                            aria-expanded="false" style={{cursor: 'pointer'}}>More</a>
                           <div className="dropdown-menu navcol-menu column-1 ">
                             <div className="dropdown-inner">
                               <ul className="list-unstyled childs_1">

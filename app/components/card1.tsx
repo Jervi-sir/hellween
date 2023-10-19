@@ -15,7 +15,8 @@ function ProductCard1({ id = 'id', title = 'title', price = 'price', imageUrl = 
   };
 
   return (
-    <div className="product-layout ">
+    <>
+    <div className="product-layout">
       <div className="product-thumb transition">
         <div className="image">
           <Link href={`/product/${id}`}>
@@ -38,6 +39,7 @@ function ProductCard1({ id = 'id', title = 'title', price = 'price', imageUrl = 
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -1,5 +1,13 @@
 import Link from "next/link";
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Delivery with Hell Ween',
+  description: 'Better shop for Halloween 2023',
+}
+
+
 function Delivery() {
   return (
     <>
