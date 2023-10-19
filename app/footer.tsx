@@ -35,7 +35,7 @@ export default function Footer() {
                   <div className="col-sm-4 footer-center">
                     <div className="position-footer-center">
                       <div className="footer_aboutus">
-                        <div className="footer-logo"> <a href="#"><img alt="" src="image/catalog/logo.png" /></a> </div>
+                        <div className="footer-logo"> <a href="#"><img alt="" src="/image/catalog/logo.png" /></a> </div>
                         <div className="footer-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                           tempor incididunt lorem consectetur tempor incididunt enim ad minim simply random text.</div>
                       </div>
@@ -98,7 +98,7 @@ export default function Footer() {
             <div className="footer-bottom-inner">
               <p className="powered"> <a href="http://www.opencart.com/">Jervi</a> Store &copy; 2023</p>
               <div className="position-footer-bottom">
-                <div className="payment-link"> <img src="image/catalog/payment.png" alt="" /></div>
+                <div className="payment-link"> <img src="/image/catalog/payment.png" alt="" /></div>
               </div>
             </div>
           </div>
