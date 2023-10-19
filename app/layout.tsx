@@ -19,6 +19,7 @@ import '@/public/catalog/view/javascript/jquery/swiper/css/opencart.css'
 import Header from './header'
 import Loader from './components/loader';
 import Footer from './footer';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -43,6 +44,7 @@ export default function RootLayout({
         {/*<Loader />*/}
         <Header />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
