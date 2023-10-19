@@ -16,7 +16,7 @@ import '@/public/catalog/view/theme/mahardhi/stylesheet/stylesheet.css'
 import '@/public/catalog/view/javascript/jquery/swiper/css/swiper.min.css'
 import '@/public/catalog/view/javascript/jquery/swiper/css/opencart.css'
 //import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/jquery-ui.min.css'
-import Header from './header
+import Header from './header'
 import Loader from './components/loader';
 import Footer from './footer';
 
