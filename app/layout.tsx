@@ -1,6 +1,24 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import '@/public/catalog/view/javascript/bootstrap/css/bootstrap.min.css'
+import '@/public/catalog/view/javascript/font-awesome/css/font-awesome.min.css'
+
+import '@/public/catalog/view/javascript/bootstrap/css/bootstrap.min.css'
+import '@/public/catalog/view/javascript/font-awesome/css/font-awesome.min.css'
+import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/mahardhi-font.css'
+import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/animate.min.css'
+//import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/owl.carousel.min.css'
+//import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/owl.theme.default.min.css'
+import '@/public/catalog/view/javascript/jquery/magnific/magnific-popup.css'
 import './globals.css'
+
+import '@/public/catalog/view/theme/mahardhi/stylesheet/stylesheet.css'
+import '@/public/catalog/view/javascript/jquery/swiper/css/swiper.min.css'
+import '@/public/catalog/view/javascript/jquery/swiper/css/opencart.css'
+//import '@/public/catalog/view/theme/mahardhi/stylesheet/mahardhi/jquery-ui.min.css'
+import Header from './components/header'
+import Loader from './components/loader';
+import Footer from './footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,7 +34,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <head>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Creepster&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+      </head>
+      <body className="common-home">
+        {/*<Loader />*/}
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
