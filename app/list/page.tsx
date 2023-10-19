@@ -39,7 +39,7 @@ function List() {
           </div>
           <div className="category-block">
             <div className="row">
-              <div className="col-sm-12"><img src="image/cache/catalog/banners/cat_banner-1140x240.jpg" alt="Shop"
+              <div className="col-sm-12"><img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697722782/hellweenshop/kqml0incihczyahoq4pj.jpg" alt="Shop"
                 title="Shop" className="img-thumbnail cat-banner" /></div>
             </div>
           </div>

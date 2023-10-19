@@ -7,7 +7,7 @@ export default function BannerOuter1() {
             <div className="part1 col-sm-6 col-xs-12">
               <div className="banners banner1">
                 <div className="inner1"> <a href="#">
-                  <img src="image/catalog/banners/banner1.png" alt=""
+                  <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697723105/hellweenshop/f3xhw6npnzw3pr1pz3xc.png" alt=""
                     className="img-responsive" /></a> </div>
               </div>
             </div>

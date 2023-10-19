@@ -212,9 +212,9 @@ function Product({ params }) {
                       <div className="product-thumb">
                         <div className="image">
                           <a href="index6320.html?route=product/product&amp;product_id=28">
-                            <img src="/image/cache/catalog/products/12-360x360.jpg" alt="Zombie" title="Zombie"
+                            <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697722782/hellweenshop/kqml0incihczyahoq4pj.jpg" alt="Zombie" title="Zombie"
                               className="img-responsive" />
-                            <img className="img-responsive hover-img" src="/image/cache/catalog/products/3-360x360.jpg"
+                            <img className="img-responsive hover-img" src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697722782/hellweenshop/kqml0incihczyahoq4pj.jpg"
                               title="Zombie" alt="Zombie" />
                           </a>
                           <div className="sale-text"><span className="section-sale">-20%</span></div>

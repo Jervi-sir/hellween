@@ -19,21 +19,21 @@ export default function SlideShow() {
         <SwiperSlide>
           <div className="text-center Main-banner1">
             <a href="#">
-              <img src="/image/cache/catalog/banners/mainbanner1-1920x950.jpg" alt="Main-banner1" className="img-responsive" />
+              <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697723202/hellweenshop/vf4c0ttxjy68izalqla5.jpg" alt="Main-banner1" className="img-responsive" />
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="text-center Main-banner2">
             <a href="#">
-              <img src="/image/cache/catalog/banners/mainbanner2-1920x950.jpg" alt="Main-banner2" className="img-responsive" />
+              <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697723201/hellweenshop/xazh7f5dafrlu1fmcy0y.jpg" alt="Main-banner2" className="img-responsive" />
             </a>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="text-center Main-banner3">
             <a href="#">
-              <img src="/image/cache/catalog/banners/mainbanner3-1920x950.jpg" alt="Main-banner3" className="img-responsive" />
+              <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697723196/hellweenshop/b0o5r0xj9d4ysjaidtb0.jpg" alt="Main-banner3" className="img-responsive" />
             </a>
           </div>
         </SwiperSlide>

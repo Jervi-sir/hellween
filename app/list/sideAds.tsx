@@ -4,7 +4,7 @@ function SideAds() {
       <div id="banner0" className="swiper-container">
         <div className="swiper-wrapper">
           <div className="swiper-slide">
-            <a href="#"><img src="image/cache/catalog/banners/cat-leftbanner-360x460.jpg" alt="Left Banner"
+            <a href="#"><img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697722782/hellweenshop/kqml0incihczyahoq4pj.jpg" alt="Left Banner"
               className="img-responsive" /></a>
           </div>
         </div>

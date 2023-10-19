@@ -35,7 +35,7 @@ function Header() {
                 <div className="header-left col-md-3 col-xs-6">
                   <div id="logo">
                     <Link href="/">
-                      <img src="/image/catalog/logo.png" title="Your Store"
+                      <img src="https://res.cloudinary.com/dbnslnawc/image/upload/v1697723012/hellweenshop/rvz3c0hxacqbarl8dikx.png" title="Your Store"
                         alt="Your Store" className="img-responsive" />
                     </Link>
                   </div>
