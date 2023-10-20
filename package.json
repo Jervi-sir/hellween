@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/auth-helpers-nextjs": "^0.8.1",
+    "@supabase/supabase-js": "^2.38.2",
     "@vercel/analytics": "^1.1.1",
+    "airtable": "^0.12.2",
     "bootstrap": "^5.3.2",
     "jquery": "^3.7.1",
     "next": "13.5.5",
+    "pg": "^8.11.3",
     "react": "^18",
     "react-dom": "^18",
     "react-medium-image-zoom": "^5.1.8",
@@ -22,7 +26,8 @@
     "serve": "^14.2.1",
     "slick-carousel": "^1.8.1",
     "styled-jsx": "^5.1.2",
-    "swiper": "^10.3.1"
+    "swiper": "^10.3.1",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/node": "^20",

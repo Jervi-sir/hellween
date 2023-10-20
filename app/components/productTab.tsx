@@ -1,16 +1,13 @@
 "use client";
-import { useState } from 'react';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import { useEffect, useState } from 'react';
 import ProductCard1 from './card1';
 
-export default function ProductType() {
+export default function ProductType({ featured, special, bestseller }) {
   const [activeTab, setActiveTab] = useState('featured');
   const products = {
-    featured: [0,1 ,1],
-    special: [0,1 ,1],
-    bestseller: [0,1 ,1]
+    featured: featured,
+    special: special,
+    bestseller: bestseller
   };
 
   const handleTabClick = (event, tab) => {
@@ -59,32 +56,18 @@ export default function ProductType() {
 }
 
 function ProductRow({ products }) {
-
   return (
     <div style={{display: 'flex', flexDirection: 'row', gap: '30px', flexWrap: 'wrap', margin: 'auto', maxWidth: '90%', justifyContent: 'center' }}>
       {products.map(product => (
-        <ProductCard1 key={product.id} />
+        <ProductCard1 
+          key={product.id}  
+          id={product.id}  
+          title={product.title}
+          price={product.price}
+          imageUrl={JSON.parse(product.images)[0]}
+          hoverImageUrl={JSON.parse(product.images)[1]}
+        />
       ))}
     </div>
-  );
-}
-
-
-function ProductCarousel({ products }) {
-  const settings = {
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    infinite: true,
-    speed: 500,
-    autoplay: true,
-
-  };
-
-  return (
-    <Slider {...settings}>
-      {products.map(product => (
-        <ProductCard1 key={product.id} />
-      ))}
-    </Slider>
   );
 }

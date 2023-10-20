@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-function ProductCard1({ id = 'id', title = 'title', price = 'price', imageUrl = '/image/cache/catalog/products/5-360x360.jpg', hoverImageUrl = '/image/cache/catalog/products/4-360x360.jpg' }) {
+function ProductCard1({ id = 'id', title = 'title', discount = '', price = 'price', imageUrl = '/image/cache/catalog/products/5-360x360.jpg', hoverImageUrl = '/image/cache/catalog/products/4-360x360.jpg' }) {
   const handleAddToCart = () => {
     // Implement your add to cart functionality here
     console.log('Add to cart', id);
@@ -21,8 +21,8 @@ function ProductCard1({ id = 'id', title = 'title', price = 'price', imageUrl = 
         <div className="image">
           <Link href={`/product/${id}`}>
             <p>
-              <Image src={imageUrl} alt={title} title={title} className="img-responsive" width={360} height={360} />
-              <Image src={hoverImageUrl} alt={title} title={title} className="img-responsive hover-img" width={360} height={360} />
+              <img src={imageUrl} alt={title} title={title} className="img-responsive" style={{width: 360, height: 360}} />
+              <img src={hoverImageUrl} alt={title} title={title} className="img-responsive hover-img" style={{width: 360, height: 360}} />
             </p>
           </Link>
         

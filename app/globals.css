@@ -18,3 +18,19 @@
 #content p {
   text-align: justify;
 }
+
+/* For Chrome, Safari, and Edge */
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+.number-input {
+  -moz-appearance: textfield;
+}
+
+button:disabled {
+  opacity: 0.2 !important;
+}
